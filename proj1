@@ -1,0 +1,382 @@
+</style>
+
+
+</head>
+<body data-spy="scrool" data-target=".site-navbar-target" data-offset="300">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar-light sit-navbar-target" id="ftco-navbar">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">vikash kumar jha</a>
+        <button class="navbar-toggler js-fhsco-nav-toggle fhsco-nav-toggle" type="button" data-toggle="collapse" data-target="aftco-nav" aria-controls>
+            <span class="oi oi-menu"></span>Menu
+        </button>
+
+      <div class="collapse navbar-collapse" id="ftco-new">
+         <ul class="navbar-nav nav ml-auto">
+             <li class="nav-item"><a href="home-section" class="nav-link"><span>Home</span></a></li>
+             <li class="nav-item"><a href="aboput-section" class="nav-link"><span>About</span></a></li>
+             <li class="nav-item"><a href="project-section" class="nav-link"><span>Project</span></a></li>
+             <li class="nav-item"><a href="contact-section" class="nav-link"><span>Contact</span></a></li>
+         </ul>
+       </div>
+    </div>
+</nav>
+<section id="home-section" class="hero">
+    <div class="home-slider  owl-carousel">
+        <div class="slider-item">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+                    <div class="one-third js-fullheight order-md-last img" style="background-image:url(c:\Screenshots\Screenshot_2023-11-30-21-17-46-000_com.miui.gallery.jpg);">
+                    <div class="overlay"></div>
+                    </div>
+                       <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax="properties: {translatev:'70%'}">
+                        <div class="text">
+                            <span class="subheading">Hello</span>
+                            <h1 class="mb-4 mt-3">I'm <span>vikash kumar jha</span></h1>
+
+                            <!--Element to contain animated typing-->
+                            <span id="typing-animation"></span>
+
+                            <script>
+
+                                //Initialize the typing animation
+                                constbtypingAnimationElement=document.getElementById('typing-animation');
+
+                                //create an array of typing animation
+                                const typingTexts=[
+                                    'student ',
+                                    'engeener',
+                                ];
+
+                                //create a function to display the typing animation for a given text
+                                function PlayTypingAnimation(text) {
+                                    //loop through each character and add it to the element
+                                for(let i=0;i<text.length;i++) {
+                                    setTimeout(()  =>  {
+                                        typingAnimationElement.textcontent +=text[i];
+                                    },  i=200); //increase the deley to slow down the typing animation
+                                }
+
+
+                                //once the animation is complete, reset the text and start over
+                                setTimeout(() => {
+                                    typingAnimationElement.textContent = "";
+                                    PlayTypingAnimation(typingTexts[(typingTexts.indexof(text) +1) %typingTexts.length]);
+                                }, text.length = 200);
+                            }
+
+                            //start the typing animation loop
+                            PlayTypingAnimation(typingTexts[0]);
+
+                            </script>
+
+                            <br>
+                            <br>
+                            <h2>A B.Tech Student </h2>
+                            <!--<h2 class="d-flex" style="margin-button: O">Hith Over 1 years of experience</h2> -->
+                            <!--<br>-->
+                            <p><a href="https://github.com/Vikash-Jha-Kumar" class="btn btn-primary py-3 px-4">My Works</a></p>
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="row d-flex align-items-stretch">
+                <!-- <div class="row d-flex"> -->
+                    <div class="col-md-6 col-lg-5 d-flex">
+                    <div class="img-about img d-flex align-items-stretch">
+                        <div class="overlay">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-5">
+                                    <div class="about-img">
+                                        <img src="images/c:\Screenshots\Screenshot_2022-12-06-20-03-26-091-edit_com.instagram.android.jpg" class="img-fluid rounded b-shadow-a" alt="">
+                                    </div>
+                                </div>
+                                <!--Details next to profile image-->
+                                <div class="col-sm-6 col-md-7">
+                                    <div class="about-info">
+                                        <p><span class="title-s">Name:</span><span>Vikash Kumar Jha</span></p>
+                                        <p><span class="title-s">Student:</span><span>B.tech (EEE)</span></p>
+                                        <p><span class="title-s">Address</Address>:</span><span>Bihar, India</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill-mf">
+                                <p class="title-s">skills</p>
+                                <span>sql</span> <span class="pull-right">0%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95"
+                                     aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                                <span>C.programing</span> <span class="pull-right">95%%</span>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" 
+                                    aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+                        <div class="row justify-content-start pb-3">
+                            <div class="col-md-12 heading-section ftco-animate">
+
+                                <h1 class="big">About</h1>
+                                <h2 class="mb-4">About me</h2>
+
+                                <p>I am vikash kumar jha from B.tech(ElectricalandElectronicsEngineering)</p>
+                                <ul class="about-info mt-4 px-md-0 px-2">
+                                    <li class="d-flex"><span>Profile:</span> <span>Student &amp; Analytics</samp></li>
+                                   <li class="d-flex"><span>Education:</span> <span>Bachelor Of Engineering </samp></li>
+                                    <li class="d-flex"><span>Language:</span> <span>English, Hindi </samp></li>
+                                        <li class="d-flex"><span>Interest:</span> <span>Traveling, Study, photoshoot </samp></li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="counter-warp ftco-animate d-flex mt-md-3">
+                            <div class="text">
+                                <p class="mb-4">
+                                    <span class="number" data-number="1">0</span> <span></span>
+                                    <span>&nbsp; projects completed </span>
+                                </p>
+                                <p><a href="https://www.linkedin.com/in/vikash-jha-882b68292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-primary py-3 px-3">Linkedin</a></p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="container">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Resume</h1>
+                <h2 class="mb-4">Resume</h2>
+                <p>student in 2nd year B.tech(EEE)</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <h1 class="big-4">EXPERIENCE</h1>
+    <div class="underline"><section class="ftco-section ftco-no-pb" id="resume-section">
+    <div class="comtainer">
+        <div class="row justify-content-center pb-5">
+            <div class="col-md-10 heading-section text-center pb-5">
+                <h1 class="big big-2">Resume</h1>
+                <h2 class="mb-4">Resume</h2>
+                <p>B.tech 2nd year student from EEE branch.AWS masters internship program complited sucsefully.Resume</p>
+            </div>
+        </div>
+
+    <div class="row">
+        <h1 class="big-4">Experience</h1>
+        <div class="underline"></div>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-mid-6">
+            <div class="resume-warp ftco-animate">
+                 <span class="date">2023-present</span>
+                 <h2>B.tech student</h2>
+                 <span class="3rdsemaster">SU</span>
+                 <p class="mt-4"></p>SU:silicon unvercity.
+                     <ul>
+                         <li>i am sucsefully complited AWS intern ship program.</li>
+                         <li>a2s opertion in AWS</li>
+                         <li>..........</li>
+                     </ul>
+                 </p>
+             </div>
+
+             <div class="col-md-6">
+                <div class="resume.warp ftco-animate">
+                    <span class="date">2023-2027</span>
+                    <h2>student at silicon collage</h2>
+                    <span class="position">student</span>
+                    <p class="mt-4">student in EEE B.tech in SU.
+                        <ul>
+                            <li>.............</li>
+                            <li>...................</li>
+                            <li>...................</li>
+                        </ul>
+                    </p>
+                </div>
+
+             </div>
+
+       </div>
+
+ <br>
+ <br>
+
+ <div class="row">
+     <h1 class="big-4">Education</h1>
+     <div class="underline"></div>
+ </div>
+ <br>
+
+ <div class="row">
+     <div class="col-md-6">
+         <div class="resume-warp ftco-animate">
+             <span class="date">2023-2027</span>
+             <h2>Bachelor Of Engineering</h2>
+             <span class="position">silicon unvercity</span>
+             <p class="mt-4">grade:1st class distinction.</p>
+         </div>
+     </div>
+ 
+        <div class="col-md-6">
+            <div class="resume-warp ftco-animate">
+               <span class="date">2021-2022</span>
+               <h2>higher secondary school</h2>
+               <span class="position">+2 purbanchal high school</span>
+               <p class="mt-4">grade:1st class distinction.</p>
+           </div>
+        </div>
+    </div>
+ 
+ 
+     <div class="row justify-content-center t-5">
+         <div class="col-md-6 text-center ftco-animate">
+            <p><a href="#" class="btn btn-primary py-4 px-5">Download cv</a></p>
+        </div>
+     </div>
+ </div>
+</section>
+
+
+
+<section class="ftco-section" id="project-section">
+    <div class="container">
+        <div class="row justify-content-centerab-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">project</h1>
+                <h2 class="mb-4">projects</h2>
+                <p>Below are the sample Data Analytic projects on c.programing,C-DSA,JAVA,AWS Masters.</p>
+            </div>
+        </div>
+    <div class="row d-flex">
+        <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+             <a href="link....." class="block-20 zoom-effect" style="background-image: ur1("image/proj_1.jpg");">
+            </a> 
+            <div class="text mt-3 float-right d-block">
+
+                <h3 class="heading"><a href="link.....">Digtal music store data Analysis Using SQL</a></h3>
+                <p>Analyzed music store data using advance SQL queires to identify gap and increase the business growth.</p>
+            </div>  
+        </div>
+    </div>
+
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+    <div class="container">
+        <div class="row d-md d-flex justify-content-center counter-wrap ftco-animate">
+            <div class="block-18">
+                <div class="text">
+                    <strong class="number" data-number="20">0</strong>
+                    <span>Achievement</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ftco-section ftco-hirene img margin-top" style="background-image: ur1(image)">
+        <!-- <div class="container"> -->
+            <div class="row justify-content-center">
+                <div class="col-md-7 ftco-animate text-center">
+                    <h2>More project on <span> Github </span></h2>
+                    <div class="heading"> <h4> I love to solve business problems &amp; Uncover hidden data stories</h4>
+                    <br>
+                    <p><a href="githublink" class="btn btn-primary py-3 px-5">Github</a></p>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+    </div>
+</section>
+
+
+
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+               <h1 class="big big-2">contact</h1>
+               <h2 class="mb-4">contact Me</h2>
+               <p>Below are the details to reach out to me</p> 
+            </div>
+        </div>
+
+        <div class="row d-flex contact-info mb-5">
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-map-signs"></span>
+                    </div>
+                    <h3 class="mb-4">Address</h3>
+                    <p>Bihar, India</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-phone2"></span>
+                    </div>
+                    <h3 class="mb-4">Contact Number</h3>
+                    <p><a href="tel://8800164562"></a></p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+                <div class="align-self-stretch box p-4 text-center">
+                    <div class="icon d-flex align-items-center justify-content-center">
+                        <span class="icon-paper-plane"></span>
+                    </div>
+                    <h3 class="mb-4">Email Address</h3>
+                    <p><a href="mailto:info@yoursite.com">vikashjha2611@gmail.com</a></p>
+                </div>
+            </div>
+
+            <div class="container">
+                <br>
+                <br>
+                <div class="row justify-content-center">
+                    <div class="col-md-7 ftco-animate text-center">
+                        <h2>Have a<span>Question? </span> <a href="#" class="btn btn-primary py-3 px-5">Click Here</a></h2>
+                    </div>
+                </div>
+                     <br>
+                        <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+                            <li class="ftco-animate normal-txt">Find me on </li>
+                            <li class="ftco-animate"><a href="@vikash_j.h.a"><span class="icon-instagram"></span></a></li>
+                            <li class="ftco-animate"><a href="https://www.linkedin.com/in/vikash-jha-882b68292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><span class="icon-linkedin"></span></a></li>
+                            <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                            <li class="ftco-animate"><a href="https://github.com/Vikash-Jha-Kumar"><span class="icon-github"></span></a></li> 
+                        </ul>
+                      <br>   
+            </div>
+    </div>
+</section>
+
+    
+
+
+
